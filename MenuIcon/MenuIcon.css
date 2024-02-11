@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container {
+    position: relative;
+}
+
+.menu-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon {
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    margin: 3px 0;
+}
+
+.sub-menu {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none;
+}
+
+.sub-icon {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sub-icon:hover {
+    background-color: #f5f5f5;
+}
+
+.menu-container {
+    position: fixed; /* Use fixed positioning to keep the icon fixed relative to the viewport */
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+}
+
+.menu-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

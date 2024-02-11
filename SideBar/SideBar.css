@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 300px;
+}
+
+.user-profile {
+    text-align: center;
+}
+
+.user-profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.username {
+    margin-bottom: 5px;
+}
+
+.business-industry {
+    margin-bottom: 10px;
+    color: #888;
+}
+
+.profile-views {
+    color: #888;
+}
